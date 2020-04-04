@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.resource_bundles = {
       'SGSocket' => ['SGSocket/Assets/*.png']
   }
-  
+# Might change in future.
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
