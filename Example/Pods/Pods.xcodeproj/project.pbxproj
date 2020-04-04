@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		126F09519D52C5B60C2CC47E2FB3BF9E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4736E4CA46E13E0EA5160C6356463B0 /* ReplaceMe.swift */; };
 		1A36073C5E19EFBF14A666A5DABD67F4 /* Pods-SGSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8CD6687BBACE0F1DD833A5FD897A5C /* Pods-SGSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29037FBACDCC3C95C8010E9251ED35A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		36217EFE2AD3AB0573D71030154369E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -37,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002C3F101CE0FD5902D12306450B3DCB /* SGSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SGSocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0A24E0386F4452C97B2D73D60B239ED7 /* Pods_SGSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGSocket_Example.framework; path = "Pods-SGSocket_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002C3F101CE0FD5902D12306450B3DCB /* SGSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SGSocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A24E0386F4452C97B2D73D60B239ED7 /* Pods_SGSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB727358ABE5025CD8FE3BFCD754C78 /* Pods-SGSocket_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSocket_Example-Info.plist"; sourceTree = "<group>"; };
 		108C797684EFBDB948694A545EAFC01E /* SGSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGSocket-Info.plist"; sourceTree = "<group>"; };
 		1F8CD6687BBACE0F1DD833A5FD897A5C /* Pods-SGSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGSocket_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -52,23 +51,22 @@
 		78E451AC8E8657C04E567F438FEF349F /* SGSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSocket-prefix.pch"; sourceTree = "<group>"; };
 		8610A3AD8972918AA0643437EFBAF23A /* SGSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGSocket-dummy.m"; sourceTree = "<group>"; };
 		927ACEDFB2A5D528FFC3DDD510E8BAB9 /* Pods-SGSocket_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSocket_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4736E4CA46E13E0EA5160C6356463B0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SGSocket/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A67AAAE336A571342227D5E8F6C7A4C5 /* Pods-SGSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AD59B33C676143D5D2B8948EBC447CA9 /* Pods-SGSocket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSocket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B36E38254F45F93664C2348EB53831F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B36E38254F45F93664C2348EB53831F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B382332A83617A79EE73F39FA61572F1 /* Pods-SGSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B82C54FD6EDD877E844C1B8D4C0E9337 /* SGSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGSocket.modulemap; sourceTree = "<group>"; };
-		BA1A86303E711AFD4F52F941A6ED1A93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BA1A86303E711AFD4F52F941A6ED1A93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BF5B24FF710FEDAA79A4072371DB1DE8 /* SGSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGSocket-umbrella.h"; sourceTree = "<group>"; };
 		C3234424F2267646933CF0DF7B8F430E /* Pods-SGSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C518D038C524A7D8F83A058842C74B78 /* Pods-SGSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C59C012CFF9EC04E1358729F29D18FA2 /* Pods-SGSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D3D7D6425745C65BAFEFE61126864CEB /* Pods-SGSocket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGSocket_Tests-dummy.m"; sourceTree = "<group>"; };
-		E13EF3DC948D41A75180EA43CD82005F /* SGSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SGSocket.framework; path = SGSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13EF3DC948D41A75180EA43CD82005F /* SGSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE30FC4DF17F415DB433D0C594BDC0B0 /* Pods-SGSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F7C910B37F196AADAF9BDCE980FAF990 /* SGSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSocket.debug.xcconfig; sourceTree = "<group>"; };
-		FA85E4F505585FC5200750F7706D35DA /* Pods_SGSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SGSocket_Tests.framework; path = "Pods-SGSocket_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA85E4F505585FC5200750F7706D35DA /* Pods_SGSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGSocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1E9440DE54E231550E23EB1E31B455 /* Pods-SGSocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGSocket_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,10 +113,17 @@
 			path = "Example/Pods/Target Support Files/SGSocket";
 			sourceTree = "<group>";
 		};
+		3E223AB62438B14E009E05DB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		4CFB4FB5AB6C4124D6B8CB20ED00AD16 /* SGSocket */ = {
 			isa = PBXGroup;
 			children = (
-				A4736E4CA46E13E0EA5160C6356463B0 /* ReplaceMe.swift */,
+				3E223AB62438B14E009E05DB /* Source */,
 				75D1FF3EDD24FF165016317C7B325643 /* Pod */,
 				23AEC16B2EF5324F73746E455BB73BF7 /* Support Files */,
 			);
@@ -367,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126F09519D52C5B60C2CC47E2FB3BF9E /* ReplaceMe.swift in Sources */,
 				686B68E1C4EB080623EB92D3493CA113 /* SGSocket-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +426,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SGSocket/SGSocket-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SGSocket/SGSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SGSocket/SGSocket.modulemap";
 				PRODUCT_MODULE_NAME = SGSocket;
@@ -486,13 +490,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -514,7 +517,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SGSocket_Tests/Pods-SGSocket_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SGSocket_Tests/Pods-SGSocket_Tests.modulemap";
@@ -583,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -612,7 +615,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SGSocket_Tests/Pods-SGSocket_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SGSocket_Tests/Pods-SGSocket_Tests.modulemap";
@@ -645,7 +648,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SGSocket/SGSocket-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SGSocket/SGSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SGSocket/SGSocket.modulemap";
 				PRODUCT_MODULE_NAME = SGSocket;
@@ -676,7 +679,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SGSocket_Example/Pods-SGSocket_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SGSocket_Example/Pods-SGSocket_Example.modulemap";
@@ -710,7 +713,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SGSocket_Example/Pods-SGSocket_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SGSocket_Example/Pods-SGSocket_Example.modulemap";
