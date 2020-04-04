@@ -1,0 +1,6 @@
+framework module SGSocket {
+  umbrella header "SGSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}
