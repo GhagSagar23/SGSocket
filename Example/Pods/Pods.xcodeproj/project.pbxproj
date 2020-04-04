@@ -10,6 +10,7 @@
 		1A36073C5E19EFBF14A666A5DABD67F4 /* Pods-SGSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8CD6687BBACE0F1DD833A5FD897A5C /* Pods-SGSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29037FBACDCC3C95C8010E9251ED35A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		36217EFE2AD3AB0573D71030154369E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3E223AB82438DF91009E05DB /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E223AB72438DF91009E05DB /* Testing.swift */; };
 		4677AAC69FE81FA96715FDFAA0BA583D /* SGSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5B24FF710FEDAA79A4072371DB1DE8 /* SGSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		686B68E1C4EB080623EB92D3493CA113 /* SGSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8610A3AD8972918AA0643437EFBAF23A /* SGSocket-dummy.m */; };
 		BADBC51D2AEC463C5989FAF5020A1079 /* Pods-SGSocket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D7D6425745C65BAFEFE61126864CEB /* Pods-SGSocket_Tests-dummy.m */; };
@@ -44,6 +45,7 @@
 		259D1C501CC0AD638A9C0F4818C5448C /* SGSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGSocket.release.xcconfig; sourceTree = "<group>"; };
 		29C983062E7E50E600E11537BEE12F3B /* Pods-SGSocket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGSocket_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E223AB72438DF91009E05DB /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
 		41E4A3F1775693AEC90231B76E2D617F /* Pods-SGSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		42C5D44E9CE2C45A5D42FF9B207A1758 /* Pods-SGSocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGSocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A39BD8DE96D893F3EA59EC0F9F9174E /* Pods-SGSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGSocket_Example.modulemap"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		3E223AB62438B14E009E05DB /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				3E223AB72438DF91009E05DB /* Testing.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -322,6 +325,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					1ADFF4D7CA873026CE88C51493910256 = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -380,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E223AB82438DF91009E05DB /* Testing.swift in Sources */,
 				FBD6190C1B90C7A033F983B4F7F65E12 /* Pods-SGSocket_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -668,6 +677,7 @@
 			baseConfigurationReference = C518D038C524A7D8F83A058842C74B78 /* Pods-SGSocket_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -690,6 +700,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -702,6 +713,7 @@
 			baseConfigurationReference = C59C012CFF9EC04E1358729F29D18FA2 /* Pods-SGSocket_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -724,6 +736,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
