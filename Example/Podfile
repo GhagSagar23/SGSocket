@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SGSocket_Example' do
+  pod 'SGSocket', :path => '../'
+
+  target 'SGSocket_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
