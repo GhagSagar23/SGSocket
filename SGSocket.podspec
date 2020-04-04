@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Sagar Ghag/SGSocket'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sagar Ghag' => 'sagar.ghag23@yahoo.com' }
-  s.source           = { :git => 'https://github.com/Sagar Ghag/SGSocket.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GhagSagar23/SGSocket.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.instagram.com/sagar.ghag23/'
 
   s.ios.deployment_target = '11.0'
