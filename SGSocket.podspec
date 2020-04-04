@@ -28,12 +28,11 @@ TODO: Add long description of the pod here.
   s.social_media_url = 'https://www.instagram.com/sagar.ghag23/'
 
   s.ios.deployment_target = '11.0'
-
-  s.source_files = 'SGSocket/Classes/*.swift'
+  s.source_files = 'SGSocket/**/*.swift'
   
-  s.resource_bundles = {
-      'SGSocket' => ['SGSocket/Assets/*.png']
-  }
+#  s.resource_bundles = {
+#      'SGSocket' => ['SGSocket/Assets/*.png']
+#  }
 # Might change in future.
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'MapKit'
