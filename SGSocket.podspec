@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.social_media_url = 'https://www.instagram.com/sagar.ghag23/'
 
   s.ios.deployment_target = '11.0'
-  s.source_files = 'SGSocket/**/*.swift'
+  s.source_files = 'Source/**/*.swift'
   
 #  s.resource_bundles = {
 #      'SGSocket' => ['SGSocket/Assets/*.png']
