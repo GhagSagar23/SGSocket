@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'SGSocket is a client side wrapper library for using WebSocket into your application. SGSocket inherits SocketRocket by Facebook.'
                        DESC
 
   s.homepage         = 'https://github.com/Sagar Ghag/SGSocket'
@@ -27,16 +27,18 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/GhagSagar23/SGSocket.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.instagram.com/sagar.ghag23/'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
+  
   s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
   
 #  s.resource_bundles = {
 #      'SGSocket' => ['SGSocket/Assets/*.png']
 #  }
 # Might change in future.
-  s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
+#  s.public_header_files = 'Pod/Classes/**/*.h'
+#  s.frameworks = 'UIKit', 'MapKit'
+#  s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'SocketRocket'
   s.dependency 'SwiftLint'
 end
